@@ -4,6 +4,7 @@ To reproduce:
 1. clone the repository
 2. debug test in `tests/foo.spec.ts` with a breakpoint at `await page.pause()`
 3. open the browser's devtools and navigate to the Local Storage section
+4. select origin `https://clausa.app.carto.com`
 
 Result (in Playwright versions `>1.37.1`):
 * in chromium, the local storage item set in the `newContext` call is missing;
