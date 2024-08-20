@@ -2,7 +2,7 @@
 
 To reproduce:
 1. clone the repository
-2. install the project (`npm run` and `npx playwright install`)
+2. install the project (`npm install` and `npx playwright install`)
 3. debug test in `tests/foo.spec.ts` with a breakpoint at `await page.pause()`
 4. open the browser's devtools and navigate to the Local Storage section
 5. select origin `https://clausa.app.carto.com`
